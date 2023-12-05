@@ -12,7 +12,7 @@ Escreva: "age.sort()"
 
 */
 
-age.sort;
+age.sort();
 
 /*
 
@@ -22,7 +22,7 @@ Após ordenar a array "age", todos os elementos precisam ser organizados em orde
 Escreva: "age.reverse()"
 
 */
-age.reverse;
+age.reverse();
 
 var i = 0;
 
@@ -58,7 +58,7 @@ function update()
     */
 
     var maxNumber = Math.max.apply(Math, age);
-    console.log("A maior idade é:60 ", maxNumber);
+    console.log("A maior idade é: ", maxNumber);
 
     /*
 
@@ -70,5 +70,5 @@ function update()
     */
 
     var minNumber = Math.min.apply(Math,age);
-    console.log("A menor idade é:20 ", minNumber);
+    console.log("A menor idade é: ", minNumber);
 }
