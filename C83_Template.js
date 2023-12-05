@@ -6,13 +6,13 @@ var age = [60, 40, 60, 30, 25, 20]
 
 /*
 
-Precisamos ordenar os elementos presentes dentro da array "age" para estampar o valor da idade do respectivo membro da família.
+Precisamos ordenadr os elementos presentes dentro da array "age" para estampar o valor da idade do respectivo membro da família.
 
 Escreva: "age.sort()"
 
 */
 
-age.sort();
+age.sort;
 
 /*
 
@@ -22,7 +22,7 @@ Após ordenar a array "age", todos os elementos precisam ser organizados em orde
 Escreva: "age.reverse()"
 
 */
-age.reverse()  ;
+age.reverse;
 
 var i = 0;
 
@@ -57,18 +57,18 @@ function update()
 
     */
 
-    var maxNumber = Math.max.apply(Math,age);
-    console.log("A maior idade é: ", maxNumber);
+    var maxNumber = Math.max.apply(Math, age);
+    console.log("A maior idade é:60 ", maxNumber);
 
     /*
 
-    Para achar a menor idade entre os membros da família, precisamos usar Math e a função min juntas, e para exibir a menor idade, precisamos estmpar o valor. Portanto usaremos o console.
+    Para achar a menor idade entre os membros da família, precisamos usar Matg e a função min juntas, e para exibir a menor idade, precisamos estmpar o valor. Portanto usaremos o console.
 
     Escreva:  "var minNumber = Math.min.apply(Math, age)
             "console.log("A menor idade é: ", minNumber)"
 
     */
 
-    var minNumber = Math.min.apply(Math, age );
-    console.log("A menor idade é: ", minNumber );
+    var minNumber = Math.min.apply(Math,age);
+    console.log("A menor idade é:20 ", minNumber);
 }
